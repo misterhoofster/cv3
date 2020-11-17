@@ -1,6 +1,6 @@
 .topcontainer {
   background-color: #839b97;
-  position:relative;
+  position: relative;
   padding-top: 100px;
 }
 
@@ -11,34 +11,70 @@ body {
 }
 
 h1 {
-  margin-top:0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Yesteryear', cursive;
+  color: #34626c;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #34626c;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Crete Round', serif;
+  color: #c6b497;
 }
 
-.middlecontainer {
-
+a {
+  font-family: 'Crete Round', serif;
+  color: #c6b497;
 }
+
+.middlecontainer {}
 
 .bottomcontainer {
-  
+  background-color: #cfd3ce;
 }
 
 .čvarak {
   text-decoration: underline;
 }
 
-
 .bottom_cloud {
   position: absolute;
-  left:350px;
+  left: 350px;
 }
 
 .top_cloud {
   position: absolute;
   top: 50px;
   right: 350px;
+}
+
+.Skilovi-pobrojano {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.sendvic {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.sims4 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.pivo {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
 }
